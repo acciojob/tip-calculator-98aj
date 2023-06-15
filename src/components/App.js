@@ -5,7 +5,9 @@ import './../styles/App.css';
 const App = () => {
   return (
     <div>
-        {/* Do not remove the main div */}
+        <div><lable>Bill : </lable> <input/></div>
+        <div><lable>Tip Percentage : </lable> <input/></div>
+        <div><lable>Number of People : </lable> <input/></div>
     </div>
   )
 }
