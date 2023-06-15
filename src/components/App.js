@@ -6,9 +6,9 @@ const App = () => {
   
   return (
     <div>
-        <div><lable>Bill : </lable> <input id='billamt'/></div>
-        <div><lable>Tip Percentage : </lable> <input/></div>
-        <div><lable>Number of People : </lable> <input/></div>
+        <div><lable>Bill : </lable> <input id='billamt' type='number'/></div>
+        <div><lable>Tip Percentage : </lable> <input type='number'/></div>
+        <div><lable>Number of People : </lable> <input type='number'/></div>
     </div>
   )
 }
